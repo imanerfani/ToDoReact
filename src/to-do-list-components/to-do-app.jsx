@@ -64,6 +64,7 @@ export default function toDoApp() {
             setShowResetInputButton(true);
         }else{
             setShowResetInputButton(false);
+            resetToDoInput();
         }
         
     }
